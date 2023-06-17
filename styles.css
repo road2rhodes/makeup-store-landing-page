@@ -21,10 +21,14 @@ header {
 }
   .header-nav {
     display: flex;
+    margin-right: auto;
+    margin-left: 1em;
   }
   .header-logo {}
   .header-search {
     display: flex;
+    margin-left: auto;
+    margin-right: 1em;
   }
 
 /* Shop Links Section */
