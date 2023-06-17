@@ -10,9 +10,24 @@
 .shop-category-all-container {
   display: flex;
   flex-direction: column;
+  width: 868px;
+  padding: 0 16px;
 }
 
 .shop-category-links-container {
   display: flex;
-  background-color: green;
+  flex-wrap: wrap;
+}
+
+div.shop-category-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 266px;
+  height: 48px;
+  background-color: rgb(244, 245, 247);
+}
+
+a.shop-category-link {
+  display: inline-block;
 }
