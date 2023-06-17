@@ -13,7 +13,10 @@ a:active, a:visited {
 
 header {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
+  color: white;
   height: 90px;
 }
   .header-nav {
