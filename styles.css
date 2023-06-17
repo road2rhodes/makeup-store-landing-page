@@ -18,14 +18,16 @@
 .shop-category-links-container {
   display: flex;
   flex-wrap: wrap;
+  row-gap: .5em;
 }
 
 div.shop-category-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 266px;
+  width: 240px;
   height: 48px;
+  margin: 0 4px;
   background-color: rgb(244, 245, 247);
 }
 
@@ -33,6 +35,6 @@ a.shop-category-link {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
   color: black;
 }
