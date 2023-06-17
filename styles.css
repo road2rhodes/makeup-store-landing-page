@@ -17,7 +17,7 @@ header {
   align-items: center;
   background-color: black;
   color: white;
-  height: 90px;
+  height: 95px;
 }
   .header-nav {
     display: flex;
@@ -30,9 +30,10 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 200px;
+    width: 100px;
     margin-right: 220px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
   }
   .header-search {
     display: flex;
