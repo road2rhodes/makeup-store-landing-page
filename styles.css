@@ -9,9 +9,10 @@
 
 .shop-category-all-container {
   display: flex;
+  flex-direction: column;
 }
 
 .shop-category-links-container {
   display: flex;
-  background-color: green;;
+  background-color: green;
 }
