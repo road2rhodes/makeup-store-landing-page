@@ -80,7 +80,7 @@ header {
 
     a.shop-category-link:hover {
       background-color: black;
-      color: white;
+      color: #ff66ac;
     }
 
 /*** Media Queries ***/
