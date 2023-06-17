@@ -7,13 +7,14 @@
 a:active, a:visited {
   color: black;
 }
+
 /*** Overall Styles ***/
 
 /* Header Section */
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: black;
   color: white;
@@ -31,6 +32,7 @@ header {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin: 0 auto;
   }
   .header-search {
     display: flex;
@@ -82,3 +84,40 @@ header {
       color: white;
     }
 
+/*** Media Queries ***/
+
+/* Tablets */
+@media only screen and (min-width: 480px) and (max-width: 869px) {
+  .shop-category-all-container {
+    display: flex;
+    flex-direction: column;
+    width: 541px;
+    padding: 0 16px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 90px;
+  }
+
+  
+}
+
+/* Mobile device */
+@media only screen and (max-width: 479px) {
+  .shop-category-all-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 479px;
+    padding: 0 16px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
