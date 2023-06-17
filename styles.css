@@ -17,6 +17,7 @@ a:active, a:visited {
   width: 868px;
   padding: 0 16px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .shop-category-all-container > p {
