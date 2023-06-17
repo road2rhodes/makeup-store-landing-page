@@ -7,4 +7,11 @@
 
 /* Nav Section */
 
-.shop-category container
+.shop-category-all-container {
+  display: flex;
+}
+
+.shop-category-links-container {
+  display: flex;
+  background-color: green;;
+}
