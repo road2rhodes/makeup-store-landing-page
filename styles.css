@@ -16,6 +16,13 @@ header {
   background-color: black;
   height: 90px;
 }
+  .header-nav {
+    display: flex;
+  }
+  .header-logo {}
+  .header-search {
+    display: flex;
+  }
 
 /* Shop Links Section */
 
