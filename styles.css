@@ -53,7 +53,7 @@ header {
   #home {
     color: white;
     text-decoration: none;
-    transition: color 1s;
+    transition: color 2s;
   }
 
   #home:hover {
