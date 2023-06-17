@@ -30,4 +30,8 @@ div.shop-category-link {
 
 a.shop-category-link {
   display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
 }
