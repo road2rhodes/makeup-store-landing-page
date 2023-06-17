@@ -83,11 +83,14 @@ header {
     text-decoration: none;
     font-weight: bold;
   }
-
+    a.shop-category-link:visited, a.shop-category-link:active {
+      color: black;
+    }
     a.shop-category-link:hover {
       background-color: black;
       color: #ff66ac;
-    }
+    }    
+    
 
 /*** Media Queries ***/
 
