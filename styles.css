@@ -23,6 +23,8 @@ header {
     display: flex;
     margin-right: auto;
     margin-left: 1em;
+    text-transform: uppercase;
+    gap: 1em;
   }
   .header-logo {
     display: flex;
