@@ -24,11 +24,19 @@ header {
     margin-right: auto;
     margin-left: 1em;
   }
-  .header-logo {}
+  .header-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
   .header-search {
     display: flex;
     margin-left: auto;
     margin-right: 1em;
+  }
+  #logo {
+    margin: 0 auto;
   }
 
 /* Shop Links Section */
