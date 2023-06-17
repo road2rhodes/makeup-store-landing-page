@@ -9,7 +9,15 @@ a:active, a:visited {
 }
 /*** Overall Styles ***/
 
-/* Nav Section */
+/* Header Section */
+
+header {
+  display: flex;
+  background-color: black;
+  height: 90px;
+}
+
+/* Shop Links Section */
 
 .shop-category-all-container {
   display: flex;
