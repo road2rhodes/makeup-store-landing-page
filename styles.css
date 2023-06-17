@@ -32,6 +32,7 @@ header {
     text-align: center;
     width: 200px;
     margin-right: 220px;
+    font-family: 'Courier New', Courier, monospace;
   }
   .header-search {
     display: flex;
