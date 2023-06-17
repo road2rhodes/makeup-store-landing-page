@@ -34,6 +34,11 @@ header {
     margin-right: 220px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
+    transition: color 1s;
+  }
+
+  .header-logo:hover {
+    color: #ff66ac;
   }
   .header-search {
     display: flex;
