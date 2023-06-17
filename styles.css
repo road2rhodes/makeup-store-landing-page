@@ -4,9 +4,6 @@
   font-family: 'Inter', sans-serif;
 }
 
-a:active, a:visited {
-  color: black;
-}
 
 /*** Overall Styles ***/
 
@@ -47,6 +44,15 @@ header {
     justify-self: right;
   }
 
+  #home {
+    color: white;
+    text-decoration: none;
+    transition: color 1s;
+  }
+
+  #home:hover {
+    color:#ff66ac;
+  }
 
 /* Shop Links Section */
 
