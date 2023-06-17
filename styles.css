@@ -43,6 +43,12 @@ header {
     margin-left: auto;
     justify-self: right;
   }
+    #search {
+      width: 279px;
+      height: 40px;
+      border-radius: 20px;
+      padding: 0 1em;
+    }
 
   #home {
     color: white;
