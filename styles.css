@@ -224,11 +224,11 @@ header {
 /*** Media Queries ***/
 
 /* Tablets */
-@media only screen and (min-width: 480px) and (max-width: 869px) {
+@media only screen and (min-width: 480px) and (max-width: 1109px) {
   .shop-category-all-container {
     display: flex;
     flex-direction: column;
-    width: 541px;
+    /* width: 541px; */
     padding: 0 16px;
     text-align: center;
     margin: 0 auto;
@@ -241,6 +241,10 @@ header {
     background-color: black;
     color: white;
     height: 90px;
+  }
+
+  #hero-image-text {
+    visibility: hidden;
   }
 
   
