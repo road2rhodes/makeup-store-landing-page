@@ -52,6 +52,16 @@ header {
   left: 1em;
 }
 
+.header-nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+}
+
+.header-nav > {
+
+}
+
 .header-logo {
   display: flex;
   flex-direction: column;
