@@ -39,6 +39,12 @@ header {
   margin: 0 auto;
 }
 
+#current-sales {
+  background-color: var(--PINK);
+  width: 100%;
+  height: 54px;
+}
+
 ::placeholder { /* For search bar placeholder text */
   color: #d4d4d4;
 }
