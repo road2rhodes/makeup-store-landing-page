@@ -133,7 +133,7 @@ header {
     margin: 0 auto;
   }
   
-  .shop-category-all-container > p {
+  .shop-category-all-container > h2 {
     margin: .5em 0;
     font-weight: bold;
     text-transform: uppercase;
