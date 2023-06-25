@@ -38,7 +38,7 @@ header {
   margin: 0 auto;
 }
 
-::placeholder {
+::placeholder { /* For search bar placeholder text */
   color: #d4d4d4;
 }
 
