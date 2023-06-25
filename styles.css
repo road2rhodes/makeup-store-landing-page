@@ -151,6 +151,7 @@ header {
       }
       a.shop-category-link:hover {
         background-color: var(--PINK);
+        transition: background-color 100ms;
         color: #ffffff;
       }    
       
