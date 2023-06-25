@@ -160,6 +160,10 @@ header {
   color: var(--WHITE);
 }
 
+#hero-image-text span:first-of-type {
+  color: #5bfff1;
+}
+
 .shop-category-all-container {
   display: flex;
   flex-direction: column;
