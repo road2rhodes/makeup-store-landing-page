@@ -58,9 +58,20 @@ header {
   gap: 1em;
 }
 
-.header-nav > {
 
+.header-nav-link {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
 }
+
+.header-nav-link:hover {
+  display: inline-block;
+  position: relative;
+  color: var(--PINK);
+  bottom: 3px;
+}
+
 
 .header-logo {
   display: flex;
