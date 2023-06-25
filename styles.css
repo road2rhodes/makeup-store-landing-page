@@ -15,6 +15,15 @@ header {
   height: 95px;
 }
 
+.shop-category-all-container {
+  display: flex;
+  flex-direction: column;
+  width: 868px;
+  padding: 0 16px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 /* | Elements */
 
 .header-nav {
@@ -51,7 +60,47 @@ header {
     padding: 0 1em;
   }
 
-
+  .shop-category-all-container {
+    display: flex;
+    flex-direction: column;
+    width: 868px;
+    padding: 0 16px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .shop-category-all-container > p {
+    margin: .5em 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.25em;
+  }
+  
+    .shop-category-links-container {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: .5em;
+    }
+  
+    a.shop-category-link {
+      width: 240px;
+      height: 48px;
+      margin: 0 4px;
+      background-color: #f4f5f7;
+      padding: 15px;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+    }
+      a.shop-category-link:visited, a.shop-category-link:active {
+        color: black;
+      }
+      a.shop-category-link:hover {
+        background-color: #ff66ac;
+        color: #ffffff;
+      }    
+      
 
 /* | Utitilies */
 
@@ -74,47 +123,7 @@ header {
 
 /* Shop Links Section */
 
-.shop-category-all-container {
-  display: flex;
-  flex-direction: column;
-  width: 868px;
-  padding: 0 16px;
-  text-align: center;
-  margin: 0 auto;
-}
 
-.shop-category-all-container > p {
-  margin: .5em 0;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 1.25em;
-}
-
-  .shop-category-links-container {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: .5em;
-  }
-
-  a.shop-category-link {
-    width: 240px;
-    height: 48px;
-    margin: 0 4px;
-    background-color: #f4f5f7;
-    padding: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-  }
-    a.shop-category-link:visited, a.shop-category-link:active {
-      color: black;
-    }
-    a.shop-category-link:hover {
-      background-color: #ff66ac;
-      color: #ffffff;
-    }    
-    
 
 /*** Media Queries ***/
 
