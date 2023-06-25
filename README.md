@@ -6,3 +6,5 @@ I want to focus on the following with this design:
 * Semantic HTML
 * Flexbox (possibly Grid)
 * Responsive Design (with variants for mobile, tablet, and desktop)
+
+Images sourced from Pexels.
