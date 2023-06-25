@@ -7,6 +7,10 @@
 
 /* | Blocks */
 
+/* | Elements */
+
+
+
 /* | Utitilies */
 
 /* | Modifiers */
@@ -48,7 +52,7 @@ header {
     margin-left: auto;
     justify-self: right;
   }
-    #search {
+    #search-bar {
       width: 279px;
       height: 40px;
       border-radius: 20px;
