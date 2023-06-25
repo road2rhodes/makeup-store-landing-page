@@ -1,6 +1,7 @@
 :root {
   --LOGO-FONT: 'Courier New', Courier, monospace;
-  --PINK: #ff66ac;
+  --BLACK: #000000;
+  --ACCENT-COLOR: #ff66ac;
   --WHITE: #ffffff;
   --LIGHT-GRAY: #f4f5f7;
   --DUSTY-PINK: #ECC7CD;
@@ -45,8 +46,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--PINK);
-  color: var(--WHITE);
+  background-color: var(--ACCENT-COLOR);
   width: 100%;
   height: 44px;
   overflow: hidden;
@@ -76,7 +76,7 @@ header {
 
 .header-nav-link {
   display: inline-block;
-  color: #ffffff;
+  color: var(--WHITE);
   font-weight: bold;
   text-decoration: none;
 }
@@ -87,9 +87,9 @@ header {
   bottom: 3px;
   text-decoration: underline 2px green;
   text-underline-offset: 5px;
-  text-decoration-color: #ffffff;
+  text-decoration-color: var(--WHITE);
   transition: text-decoration-color 200s;
-  color: var(--PINK); 
+  color: var(--ACCENT-COLOR); 
 }
 
 
@@ -103,7 +103,7 @@ header {
 }
 
 .header-logo:hover {
-  color: var(--PINK);
+  color: var(--ACCENT-COLOR);
 }
 
 #header-home-link {
@@ -114,7 +114,7 @@ header {
 }
 
 #header-home-link:hover {
-  color:var(--PINK);
+  color:var(--ACCENT-COLOR);
 }
 
 .header-search {
@@ -127,12 +127,13 @@ header {
     height: 32px;
     border-radius: 20px;
     background-color: #4b454b;
-    color: #ffffff;
+    color: var(--WHITE);
     padding: 0 1em;
   }
 
   #current-sales-text {
     font-weight: 200;
+    color: #000000;
   }
  
 .shop-category-all-container {
@@ -172,9 +173,9 @@ header {
       color: black;
     }
     a.shop-category-link:hover {
-      background-color: var(--PINK);
+      background-color: var(--ACCENT-COLOR);
       transition: background-color 100ms;
-      color: #ffffff;
+      color: var(--WHITE)
     }    
       
 
