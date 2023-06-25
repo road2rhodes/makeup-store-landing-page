@@ -287,10 +287,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-<<<<<<< HEAD
     row-gap: 0.5em;
-=======
->>>>>>> 855287b40600294c71ee96f37aa27ead88c65430
     align-items: center;
     background-color: black;
     color: white;
