@@ -68,8 +68,9 @@ header {
 .header-nav-link:hover {
   display: inline-block;
   position: relative;
-  color: var(--PINK);
   bottom: 3px;
+  color: var(--PINK);
+  transition: bottom 20s;
 }
 
 
