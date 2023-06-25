@@ -5,9 +5,11 @@
 }
 
 
-/*** Overall Styles ***/
+/* | Blocks */
 
-/* Header Section */
+/* | Utitilies */
+
+/* | Modifiers */
 
 header {
   display: flex;
@@ -16,6 +18,9 @@ header {
   color: white;
   height: 95px;
 }
+
+/* Header Section */
+
   .header-nav {
     display: flex;
     margin-left: 1em;
