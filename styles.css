@@ -25,7 +25,7 @@ header {
   background-color: black;
   color: white;
   width: 100%;
-  height: 95px;
+  height: 54px;
 }
 
 .shop-category-all-container {
@@ -55,7 +55,6 @@ header {
   font-size: 1.5em;
   transition: color 1s;
   margin: 0 auto;
-  width: 100px;
 }
 
 .header-logo:hover {
@@ -124,13 +123,13 @@ header {
 /* Header Section */
 
 
-  #home {
+  #header-home-link {
     color: white;
     text-decoration: none;
     transition: color 2s;
   }
 
-  #home:hover {
+  #header-home-link:hover {
     color:#ff66ac;
   }
 
