@@ -38,6 +38,10 @@ header {
   margin: 0 auto;
 }
 
+::placeholder {
+  color: #d4d4d4;
+}
+
 /* | Elements */
 
 .header-nav {
@@ -83,10 +87,11 @@ header {
     height: 32px;
     border-radius: 20px;
     background-color: #4b454b;
-    color:
+    color: #ffffff;
     padding: 0 1em;
   }
 
+ 
   .shop-category-all-container {
     display: flex;
     flex-direction: column;
