@@ -7,14 +7,6 @@
 
 /* | Blocks */
 
-/* | Elements */
-
-
-
-/* | Utitilies */
-
-/* | Modifiers */
-
 header {
   display: flex;
   align-items: center;
@@ -23,41 +15,52 @@ header {
   height: 95px;
 }
 
+/* | Elements */
+
+.header-nav {
+  display: flex;
+  margin-left: 1em;
+  text-transform: uppercase;
+  gap: 1em;
+  margin-right: auto;
+}
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100px;
+  margin-right: 220px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  transition: color 1s;
+}
+
+.header-logo:hover {
+  color: #ff66ac;
+}
+.header-search {
+  display: flex;
+  margin-right: 1em;
+  margin-left: auto;
+  justify-self: right;
+}
+  #search-bar {
+    width: 279px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 1em;
+  }
+
+
+
+/* | Utitilies */
+
+/* | Modifiers */
+
+
+
 /* Header Section */
 
-  .header-nav {
-    display: flex;
-    margin-left: 1em;
-    text-transform: uppercase;
-    gap: 1em;
-    margin-right: auto;
-  }
-  .header-logo {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100px;
-    margin-right: 220px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5em;
-    transition: color 1s;
-  }
-
-  .header-logo:hover {
-    color: #ff66ac;
-  }
-  .header-search {
-    display: flex;
-    margin-right: 1em;
-    margin-left: auto;
-    justify-self: right;
-  }
-    #search-bar {
-      width: 279px;
-      height: 40px;
-      border-radius: 20px;
-      padding: 0 1em;
-    }
 
   #home {
     color: white;
