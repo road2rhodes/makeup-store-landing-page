@@ -9,5 +9,4 @@ I want to focus on the following with this design:
 
 Images sourced from Pexels.
 [image 1](https://www.pexels.com/photo/woman-with-blue-lips-on-body-of-water-2710063/)
-[image 2]()
-[image 3](https://www.pexels.com/photo/portrait-of-a-fashion-model-4355345/)
+[image 2](https://www.pexels.com/photo/portrait-of-a-fashion-model-4355345/)
