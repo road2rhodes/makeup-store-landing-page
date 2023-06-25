@@ -133,6 +133,7 @@ header {
 
   #current-sales-text {
     font-weight: 200;
+    font-size: 1rem;
     color: var(--BLACK);
   }
  
