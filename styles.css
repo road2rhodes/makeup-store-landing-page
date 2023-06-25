@@ -62,6 +62,7 @@ header {
 .header-nav-link {
   display: inline-block;
   color: #ffffff;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -69,8 +70,8 @@ header {
   display: inline-block;
   position: relative;
   bottom: 3px;
-  color: var(--PINK);
   transition: bottom 20s;
+  color: var(--PINK);
 }
 
 
