@@ -33,13 +33,25 @@ header {
   height: 54px;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  background-color: var(--BLACK);
+  color: white;
+  width: 100%;
+  height: 54px;
+  position: relative;
+  bottom: 0;
+}
+
 .shop-category-all-container {
   display: flex;
   flex-direction: column;
   width: 868px;
+  height: 233px;
   padding: 0 16px;
   text-align: center;
-  margin: 1em auto;
+  margin: 0 auto;
 }
 
 #current-sales {
