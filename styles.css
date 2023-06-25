@@ -277,10 +277,49 @@ header {
   .shop-category-all-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    max-width: 479px;
+    width: 541px;
     padding: 0 16px;
     text-align: center;
     margin: 0 auto;
   }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.5em;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 90px;
+  }
+
+  #hero-image-text {
+    visibility: hidden;
+  }
+
+.header-search {
+  visibility: hidden;
+}
+
+.header-nav {
+  position: initial;
+  margin: 0;
+  padding: 0;
+  position: static;
+  order: 1;
+}
+
+.header-logo {
+
+}
+
+#search-bar {
+  width: 479px;
+}
+
+#current-sales {
+  padding: 0 1em;
+}
+
 }
