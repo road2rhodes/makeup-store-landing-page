@@ -60,6 +60,18 @@ header {
 .header-logo:hover {
   color: #ff66ac;
 }
+
+#header-home-link {
+  color: white;
+  text-decoration: none;
+  letter-spacing: -1.5px;
+  transition: color 2s;
+}
+
+#header-home-link:hover {
+  color:#ff66ac;
+}
+
 .header-search {
   display: flex;
   position: absolute;
@@ -123,15 +135,6 @@ header {
 /* Header Section */
 
 
-  #header-home-link {
-    color: white;
-    text-decoration: none;
-    transition: color 2s;
-  }
-
-  #header-home-link:hover {
-    color:#ff66ac;
-  }
 
 /* Shop Links Section */
 
