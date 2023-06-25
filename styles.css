@@ -247,7 +247,14 @@ header {
     visibility: hidden;
   }
 
-  
+  .header-nav {
+    visibility: hidden;
+  }
+
+  .header-logo {
+    position: absolute;
+    left: 1em;
+  }
 }
 
 /* Mobile device */
