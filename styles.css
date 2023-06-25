@@ -1,5 +1,6 @@
 :root {
   --LOGO-FONT: 'Courier New', Courier, monospace;
+  --PINK: #ff66ac;
   font-family: 'Inter', sans-serif;
   width: 100%;
   height: 100%;
@@ -58,7 +59,7 @@ header {
 }
 
 .header-logo:hover {
-  color: #ff66ac;
+  color: var(--PINK);
 }
 
 #header-home-link {
@@ -69,7 +70,7 @@ header {
 }
 
 #header-home-link:hover {
-  color:#ff66ac;
+  color:var(--PINK);
 }
 
 .header-search {
@@ -81,6 +82,8 @@ header {
     width: 279px;
     height: 32px;
     border-radius: 20px;
+    background-color: #4b454b;
+    color:
     padding: 0 1em;
   }
 
@@ -121,7 +124,7 @@ header {
         color: black;
       }
       a.shop-category-link:hover {
-        background-color: #ff66ac;
+        background-color: var(--PINK);
         color: #ffffff;
       }    
       
